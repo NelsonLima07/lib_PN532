@@ -1,0 +1,216 @@
+2024-04-01 03:42:33,124 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 03:42:43,808 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 03:42:44,466 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 03:42:51,652 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,652 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,656 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,656 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,659 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,659 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,663 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,663 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,670 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:42:51,670 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,501 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,501 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,502 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,502 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,523 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 03:43:19,552 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,552 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,558 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:19,559 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,002 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,002 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,002 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,003 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,026 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 03:43:22,066 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,066 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,074 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:22,074 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:30,641 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 916877712 Bytes (1073741824)
+2024-04-01 03:43:30,694 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:43:30,695 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:43:30,696 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:43:31,064 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 941521296 Bytes (1073741824)
+2024-04-01 03:43:31,551 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 728925768 Bytes (1073741824)
+2024-04-01 03:43:31,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-01 03:43:31,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-01 03:43:31,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-01 03:43:31,839 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-01 03:43:31,839 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-01 03:43:31,840 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-04-01 03:43:31,841 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:31,841 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 03:43:32,046 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp_save
+2024-04-01 03:43:32,205 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp
+2024-04-01 03:43:32,253 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c_save
+2024-04-01 03:43:32,470 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c
+2024-04-01 03:43:32,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h_save
+2024-04-01 03:43:32,645 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h
+2024-04-01 03:43:32,722 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c_save
+2024-04-01 03:43:33,042 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c
+2024-04-01 03:43:33,060 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h_save
+2024-04-01 03:43:33,156 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h
+2024-04-01 03:43:33,180 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c_save
+2024-04-01 03:43:33,412 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c
+2024-04-01 03:43:33,420 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h_save
+2024-04-01 03:43:33,513 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h
+2024-04-01 03:43:33,538 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c_save
+2024-04-01 03:43:33,641 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c
+2024-04-01 03:43:33,646 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp_save
+2024-04-01 03:43:33,747 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp
+2024-04-01 03:43:33,763 [INFO] CodeEngine:311 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-04-01 03:43:33,865 [INFO] CodeEngine:335 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h
+2024-04-01 03:43:33,921 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h_save
+2024-04-01 03:43:34,041 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h
+2024-04-01 03:43:34,055 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c_save
+2024-04-01 03:43:34,151 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c
+2024-04-01 03:43:34,853 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 228mS.
+2024-04-01 03:43:34,858 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-04-01 03:43:35,255 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-04-01 03:43:37,403 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2544mS.
+2024-04-01 03:43:37,403 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-04-01 03:43:37,408 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-04-01 03:45:00,289 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:00,289 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:00,290 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:00,407 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:00,407 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:00,408 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,306 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,306 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,307 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,489 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,490 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:45:30,490 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,502 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,503 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,503 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,711 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,712 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:03,712 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,699 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,699 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,700 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,878 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,879 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:46:32,879 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,306 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,307 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,307 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,432 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,433 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:47:22,434 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,500 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,501 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,501 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,620 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,620 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:48:18,621 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,430 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,430 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,431 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,644 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,645 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 03:50:06,645 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2024-04-01 05:46:01,211 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-01 05:46:02,930 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 865976360 Bytes (1073741824)
+2024-04-01 05:46:03,319 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 890615848 Bytes (1073741824)
+2024-04-01 05:46:03,847 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 932036648 Bytes (1073741824)
+2024-04-01 05:46:04,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-01 05:46:04,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-01 05:46:04,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-01 05:46:04,145 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-01 05:46:04,145 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-01 05:46:04,147 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-04-01 05:46:04,148 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:04,148 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:04,256 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp_save
+2024-04-01 05:46:04,331 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp
+2024-04-01 05:46:04,360 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c_save
+2024-04-01 05:46:04,468 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c
+2024-04-01 05:46:04,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h_save
+2024-04-01 05:46:04,544 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h
+2024-04-01 05:46:04,591 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c_save
+2024-04-01 05:46:04,745 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c
+2024-04-01 05:46:04,757 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h_save
+2024-04-01 05:46:04,830 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h
+2024-04-01 05:46:04,850 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c_save
+2024-04-01 05:46:05,064 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c
+2024-04-01 05:46:05,075 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h_save
+2024-04-01 05:46:05,143 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h
+2024-04-01 05:46:05,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c_save
+2024-04-01 05:46:05,253 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c
+2024-04-01 05:46:05,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp_save
+2024-04-01 05:46:05,317 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp
+2024-04-01 05:46:05,336 [INFO] CodeEngine:311 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-04-01 05:46:05,500 [INFO] CodeEngine:335 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h
+2024-04-01 05:46:05,560 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h_save
+2024-04-01 05:46:05,663 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h
+2024-04-01 05:46:05,679 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c_save
+2024-04-01 05:46:05,796 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c
+2024-04-01 05:46:06,607 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 228mS.
+2024-04-01 05:46:06,614 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-04-01 05:46:06,970 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-04-01 05:46:08,934 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2320mS.
+2024-04-01 05:46:08,935 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-04-01 05:46:08,939 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-04-01 05:46:12,953 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,953 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,957 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,957 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,961 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,961 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,966 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,966 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,972 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,972 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,976 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,976 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,982 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,982 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,986 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:12,986 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:32,742 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779733808 Bytes (1073741824)
+2024-04-01 05:46:33,163 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 805485376 Bytes (1073741824)
+2024-04-01 05:46:33,659 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 848417584 Bytes (1073741824)
+2024-04-01 05:46:33,905 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-01 05:46:33,905 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-01 05:46:33,905 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-01 05:46:33,905 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-01 05:46:33,905 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-01 05:46:33,906 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-04-01 05:46:33,907 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:33,907 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-04-01 05:46:34,088 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp_save
+2024-04-01 05:46:34,200 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\license.tmp
+2024-04-01 05:46:34,246 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c_save
+2024-04-01 05:46:34,339 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\gpio.c
+2024-04-01 05:46:34,346 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h_save
+2024-04-01 05:46:34,461 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\gpio.h
+2024-04-01 05:46:34,523 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c_save
+2024-04-01 05:46:34,687 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\i2c.c
+2024-04-01 05:46:34,704 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h_save
+2024-04-01 05:46:34,799 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\i2c.h
+2024-04-01 05:46:34,847 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c_save
+2024-04-01 05:46:35,065 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_it.c
+2024-04-01 05:46:35,072 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h_save
+2024-04-01 05:46:35,145 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_it.h
+2024-04-01 05:46:35,180 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c_save
+2024-04-01 05:46:35,266 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\stm32f4xx_hal_msp.c
+2024-04-01 05:46:35,271 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp_save
+2024-04-01 05:46:35,338 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\MXTmpFiles\system.tmp
+2024-04-01 05:46:35,357 [INFO] CodeEngine:311 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-04-01 05:46:35,449 [INFO] CodeEngine:335 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\stm32f4xx_hal_conf.h
+2024-04-01 05:46:35,492 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h_save
+2024-04-01 05:46:35,581 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Inc\main.h
+2024-04-01 05:46:35,594 [INFO] CodeEngine:255 - oldGeneratedFile, C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c_save
+2024-04-01 05:46:35,682 [INFO] CodeEngine:279 - Generated code: C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\Core\Src\main.c
+2024-04-01 05:46:36,350 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 212mS.
+2024-04-01 05:46:36,357 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-04-01 05:46:36,765 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2024-04-01 05:46:38,639 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2282mS.
+2024-04-01 05:46:38,640 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-04-01 05:46:38,645 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.

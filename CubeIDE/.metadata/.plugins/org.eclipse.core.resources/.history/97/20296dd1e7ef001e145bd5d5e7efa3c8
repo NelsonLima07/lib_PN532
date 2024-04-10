@@ -1,0 +1,44 @@
+/*
+ * J3_PN532.c
+ *
+ *  Created on: Mar 31, 2024
+ *      Author: Nelson Lima
+ */
+#include "usr/J3_PN532.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+void j3_PN532_Send(TPN532* _pn532, uint8_t _cmd){
+  if (_pn532->i2c != NULL){
+    HAL_StatusTypeDef ret;
+    uint8_t buf[2];
+
+    buf[0] = 0x00;
+    buf[1] = _cmd;
+   // ret = HAL_I2C_Master_Transmit(_oled->i2c, _oled->address, buf, 2, HAL_MAX_DELAY);
+    if (ret == HAL_OK) {
+    }
+    else {
+    }
+  }
+}
+
+
+
+TPN532* j3_PN532_new(I2C_HandleTypeDef* _i2c, uint8_t _i2c_address)
+{
+  TPN532* auxPN532;
+
+  auxPN532 = malloc(sizeof(TPN532));
+  auxPN532->address = _i2c_address;
+  auxPN532->i2c = _i2c;
+  auxPN532->buffer = malloc(128 * 8 * sizeof(uint8_t));
+  memset(auxPN532->buffer, 0x00, 128 * 8 * sizeof(uint8_t));
+
+
+
+  return auxPN532;
+}
+

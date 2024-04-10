@@ -1,0 +1,26 @@
+#include "usr/main_PN532.h"
+
+#include <stdint.h>
+
+
+
+uint32_t tmrLED = HAL_GetTick();
+
+int main_PN532 (void)
+{
+//  uint32_t tmrLED = HAL_GetTick();
+
+  while(1)
+    {
+      //tmrLED = HAL_GetTick();
+      if (HAL_GetTick() - tmrLED >= 50)
+      {
+	tmrLED = HAL_GetTick();
+	HAL_GPIO_TogglePin(LED_EXTERNO_GPIO_Port, LED_EXTERNO_Pin);
+	tmrLED = HAL_GetTick();
+      }
+    }
+
+  //HAL_Delay(1000);
+
+}

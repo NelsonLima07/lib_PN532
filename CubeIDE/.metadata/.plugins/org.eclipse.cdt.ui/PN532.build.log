@@ -1,0 +1,52 @@
+05:49:30 **** Incremental Build of configuration Debug for project PN532 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/usr/main_PN532.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usr/main_PN532.d" -MT"Core/Src/usr/main_PN532.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usr/main_PN532.o"
+../Core/Src/usr/main_PN532.c: In function 'SendI2C':
+../Core/Src/usr/main_PN532.c:16:45: warning: pointer targets in passing argument 3 of 'HAL_I2C_Master_Receive' differ in signedness [-Wpointer-sign]
+   16 |   HAL_I2C_Master_Receive(&hi2c1, _endereco, rxBuffer, 10, 500);
+      |                                             ^~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/usr/main_PN532.h:10,
+                 from ../Core/Src/usr/main_PN532.c:1:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:567:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  567 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/usr/main_PN532.c:18:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   18 |   printf(rxBuffer);
+      |   ^~~~~~
+../Core/Src/usr/main_PN532.c:5:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    4 | #include "i2c.h"
+  +++ |+#include <stdio.h>
+    5 | 
+../Core/Src/usr/main_PN532.c:18:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   18 |   printf(rxBuffer);
+      |   ^~~~~~
+../Core/Src/usr/main_PN532.c:18:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/usr/main_PN532.c: In function 'main_PN532':
+../Core/Src/usr/main_PN532.c:56:28: warning: pointer targets in passing argument 2 of 'j3_PN532_GravaTag' differ in signedness [-Wpointer-sign]
+   56 |   j3_PN532_GravaTag(pn532, "0x00", 1);
+      |                            ^~~~~~
+      |                            |
+      |                            char *
+In file included from ../Core/Src/usr/main_PN532.c:2:
+../Core/Inc/usr/J3_PN532.h:32:52: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   32 | uint8_t j3_PN532_GravaTag(TPN532 *_pn532, uint8_t *_msg, uint8_t _tam); /*  */
+      |                                           ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "PN532.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\NelsonLima\Projetos\Github\lib_PN532\CubeIDE\PN532\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PN532.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PN532.elf
+ 
+arm-none-eabi-size  PN532.elf 
+arm-none-eabi-objdump -h -S PN532.elf  > "PN532.list"
+   text	   data	    bss	    dec	    hex	filename
+  14784	    112	   1992	  16888	   41f8	PN532.elf
+Finished building: default.size.stdout
+ 
+Finished building: PN532.list
+ 
+
+05:49:31 Build Finished. 0 errors, 4 warnings. (took 825ms)
+

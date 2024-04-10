@@ -1,0 +1,4 @@
+../Core/Src/usr/J3_PN532.c:13:6:j3_PN532_Send	2
+../Core/Src/usr/J3_PN532.c:34:9:j3_PN532_new	1
+../Core/Src/usr/J3_PN532.c:49:9:j3_PN532_SetSendFunction	1
+../Core/Src/usr/J3_PN532.c:55:9:j3_PN532_GravaTag	1

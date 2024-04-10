@@ -1,0 +1,32 @@
+/* */
+#ifndef __MAIN_J3_PN532_H
+#define __MAIN_J3_PN532_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "i2c.h"
+
+typedef int TfuncSend_I2C(uint8_t _endereco, uint8_t *_msg, uint8_t tam);
+
+struct TPN532{
+    I2C_HandleTypeDef* i2c;
+    uint8_t address;
+    uint8_t *buffer;
+    TfuncSend_I2C *ptrFuncSend_I2C = NULL;
+};
+typedef struct TPN532 TPN532;
+
+
+
+
+TPN532* j3_PN532_new(I2C_HandleTypeDef* _i2c, uint8_t _i2c_address); /* Retorna um ponteiro para um PN532 */
+
+uint8_t j3_PN532_GravaTag(TPN532 *_pn532, uint8_t *_msg, uint8_t tam); /*  */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_J3_PN532_H */

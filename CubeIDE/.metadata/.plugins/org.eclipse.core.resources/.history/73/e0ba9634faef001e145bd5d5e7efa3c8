@@ -1,0 +1,47 @@
+/*
+ * J3_PN532.c
+ *
+ *  Created on: Mar 31, 2024
+ *      Author: Nelson Lima
+ */
+#include "usr/J3_PN532.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+void j3_PN532_Send(TPN532* _pn532, uint8_t *_msg,  uint8_t _tam)
+{
+  (_pn532->*ptrFuncSend_I2C)(_pn532->address, _msg, _tam);
+}
+
+
+
+//TPN532* j3_PN532_new(I2C_HandleTypeDef* _i2c, uint8_t _i2c_address)
+TPN532* j3_PN532_new(uint8_t _i2c_address)
+{
+  TPN532* auxPN532;
+
+  auxPN532 = malloc(sizeof(TPN532));
+  auxPN532->address = _i2c_address;
+  //auxPN532->i2c = _i2c;
+  auxPN532->buffer = malloc(128 * 8 * sizeof(uint8_t));
+  memset(auxPN532->buffer, 0x00, 128 * 8 * sizeof(uint8_t));
+
+
+
+  return auxPN532;
+}
+
+uint8_t j3_PN532_SetSendFunction(TPN532 *_pn532, TfuncSend_I2C *_ptrFuncSend_I2C)
+{
+  _pn532->ptrFuncSend_I2C = _ptrFuncSend_I2C;
+  return 0;
+}
+
+uint8_t j3_PN532_GravaTag(TPN532 *_pn532, uint8_t *_msg, uint8_t _tam)
+{
+  j3_PN532_Send(_pn532, _msg, _tam);
+  return 0;
+}
+
