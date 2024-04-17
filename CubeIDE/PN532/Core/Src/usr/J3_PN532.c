@@ -10,6 +10,30 @@
 #include <stdlib.h>
 
 
+void montaPacote(uint8_t *_msg, uint8_t _tam)
+{
+  uint8_t TAM = _tam + 1;
+  uint8_t pacote[8 + _tam];
+
+  pacote[0] = PN532_PREAMBLE;
+  pacote[1] = PN532_STARTCODE1;
+  pacote[2] = PN532_STARTCODE2;
+  pacote[3] = TAM;
+  pacote[4] = ~TAM + 1;
+  pacote[5] = PN532_HOSTTOPN532;
+
+  uint8_t sum = 0;
+  for(uint8_t i = 0; i < _tam; i++)
+    {
+      pacote[6 + i] = _msg[i];
+      sum += _msg[i];
+    }
+
+  pacote[6 + _tam] = ~(PN532_HOSTTOPN532 + sum) + 1;
+  pacote[7 + _tam] = PN532_POSTAMBLE;
+
+}
+
 void j3_PN532_Send(TPN532* _pn532, uint8_t _cmd,  uint8_t *_msg,  uint8_t _tam)
 {
   uint8_t packet[PN532_DATA_PACKET_SIZE];
